@@ -12,7 +12,7 @@ jobs:
       
       - name: Kind create cluster
         run: |
-          kind create cluster --name bmi-cluster --config kind-config
+          kind create cluster --name bmi-cluster --config kind-config.yaml
 
       - name: Install ingress-nginx
         run: |
